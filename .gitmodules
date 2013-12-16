@@ -1,0 +1,15 @@
+[submodule "memoizer"]
+	path = memoizer
+	url = https://github.com/io-project/memoizer.git
+[submodule "memoizer-plugins"]
+	path = memoizer-plugins
+	url = https://github.com/io-project/memoizer-plugins.git
+[submodule "memoizer-plugins-Komixxy"]
+	path = memoizer-plugins-Komixxy
+	url = https://github.com/io-project/memoizer-plugins-Komixxy.git
+[submodule "memoizer-plugins-Demoty"]
+	path = memoizer-plugins-Demoty
+	url = https://github.com/io-project/memoizer-plugins-Demoty.git
+[submodule "memoizer-plugins-Kwejk"]
+	path = memoizer-plugins-Kwejk
+	url = https://github.com/io-project/memoizer-plugins-Kwejk.git
