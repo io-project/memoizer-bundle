@@ -12,8 +12,6 @@ add_maven(memoizer-plugins install memoizer-plugins-0.0.1-SNAPSHOT.jar)
 install_maven(memoizer bin)
 install_maven(memoizer-plugins bin/lib)
 
-include(CMakePrintHelpers)
-
 file(GLOB plugins RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "memoizer-plugins-*")
 foreach(plugin IN LISTS plugins)
     string(SUBSTRING ${plugin} 17 -1 plugin_name)
