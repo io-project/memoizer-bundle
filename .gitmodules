@@ -10,9 +10,6 @@
 [submodule "memoizer-plugins-Demoty"]
 	path = memoizer-plugins-Demoty
 	url = https://github.com/io-project/memoizer-plugins-Demoty.git
-[submodule "memoizer-plugins-Kwejk"]
-	path = memoizer-plugins-Kwejk
-	url = https://github.com/io-project/memoizer-plugins-Kwejk.git
 [submodule "memoizer-gui"]
 	path = memoizer-gui
 	url = https://github.com/io-project/memoizer-gui.git

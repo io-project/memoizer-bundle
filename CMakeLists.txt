@@ -21,3 +21,5 @@ foreach(plugin IN LISTS plugins)
     add_maven(${plugin} package ${output_file} DEPENDS memoizer-plugins)
     install_maven(${plugin} bin/plugins)
 endforeach()
+
+add_subdirectory(memoizer-gui)
