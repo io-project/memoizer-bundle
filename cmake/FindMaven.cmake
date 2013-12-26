@@ -19,7 +19,7 @@ if(${Maven_FOUND})
         add_custom_command(OUTPUT ${RESULT_FILE}
                            COMMAND ${Maven_EXECUTABLE} ${Goal}
                            WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${Directory}
-                           DEPENDS ${_add_maven_DEPENDS}
+                           DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/${Directory}/src ${_add_maven_DEPENDS}
         )
 
         add_custom_target(${Directory} ALL DEPENDS ${RESULT_FILE})
