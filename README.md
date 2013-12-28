@@ -21,3 +21,10 @@ make install
 cd ../install
 bin/memoizer-gui 
 ```
+
+Wymagania
+---------
+* Java 1.7
+* Maven
+* CMake>=2.8.11
+* Qt 5.2
