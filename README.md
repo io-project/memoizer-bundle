@@ -9,7 +9,7 @@ Jak zbudować/uruchomić
 # Ściągnąć kod
 git clone git@github.com:io-project/memoizer-bundle.git
 cd memoizer-bundle/
-git submodule update .
+git submodule update --init .
 cd ..
 # Zbudować
 mkdir build
