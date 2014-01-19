@@ -13,3 +13,6 @@
 [submodule "memoizer-gui"]
 	path = memoizer-gui
 	url = https://github.com/io-project/memoizer-gui.git
+[submodule "memoizer-plugins.all"]
+	path = memoizer-plugins.all
+	url = http://github.com/karolb/memoizer-plugins.all.git
